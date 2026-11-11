@@ -30,6 +30,29 @@ header {
     gap: 20px;
 }
 
+main {
+    flex: 1;
+}
+
+.synopsis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.synopsis article {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.synopsis h2 {
+    color: #17324d;
+    margin-bottom: 15px;
+}
+
 .footer {
     background-color: gray;
     padding: 30px;

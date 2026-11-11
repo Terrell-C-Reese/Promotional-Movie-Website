@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: hsl(212, 45%, 89%); */
+    font-family: "outfit", sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: gray;
+    padding: 15px 30px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.hero {
+    background: url("./images/crime_movie_poster.jpg") center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 1000px;
+}
+
+.hero button {
+    background-color: #17324d;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #285580;
+}
+
+.footer {
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+}

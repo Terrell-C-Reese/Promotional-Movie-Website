@@ -53,8 +53,18 @@ main {
     margin-bottom: 15px;
 }
 
+.synopsis p {
+    line-height: 1.6;
+}
+
 .footer {
     background-color: gray;
     padding: 30px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .synopsis {
+        grid-template-columns: 1fr;
+    }
 }

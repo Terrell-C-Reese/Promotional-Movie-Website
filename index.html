@@ -18,33 +18,58 @@
                 <li><a href="#Home">Home</a></li>
                 <li><a href="./synopsis.html">Synopsis</a></li>
                 <li><a href="#ContactUs">ContactUs</a></li>
-                <li></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section class="hero">
+        <section class="hero" id="Home">
 
-
-        <!-- Button Opens Video -->
+            <!-- Button Opens Video -->
             <button id="button-popup-open" aria-label="View Trailer Here">View Trailer Here</button>
-        <!-- Pop-Up Background For Video-->
+            <!-- Pop-Up Background For Video-->
             <div id="background-popup" class="pop-background">
-        <!-- Video and Close Button -->
-            <div class="vid-content">
-                <button class="close-button" aria-label="Press Here To Close Window">&times;</button>
-                <video id="vid-popup" width="100%" controls>
-                <source src="./assets/vid/the_crime_brothers_full_trailer.mp4" type="video/mp4">
-             </video>
+                <!-- Video and Close Button -->
+                <div class="vid-content">
+                    <button class="close-button" aria-label="Press Here To Close Window">&times;</button>
+                    <video id="vid-popup" width="100%" controls>
+                        <source src="./assets/vid/the_crime_brothers_full_trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
-            </div>
-        </container> 
+            
         </section>
-    <footer id="ContactUs" class="footer">
-        <p>&copy; All rights reserved.</p>
-    </footer>
+        <footer id="ContactUs" class="footer">
+
+            <div class="footer-container">
+
+                <div class="footer-about">
+                    <h3>The Crime Brothers</h3>
+                    <p>Two kingpins. One alliance.
+                        No turning back.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <a href="./index.html">Home</a>
+                    <a href="./synopsis.html">Synopsis</a>
+                    <a href="#ContactUs">Contact</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Get in Touch</h3>
+                    <p>Contact the production team</p>
+                </div>
+
+            </div>
+
+            <p class="copyright">
+                &copy; 2026 The Crime Brothers |
+                Student Movie Project
+            </p>
+
+        </footer>
 
 </body>
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/title_icon.jpg">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <title>The Crime Brother's Crime Movie Promotional Website</title>
 </head>
 
@@ -26,11 +26,22 @@
     <main>
 
         <section class="hero">
-            <button>Watch Trailer</button>
+
+
+        <!-- Button Opens Video -->
+            <button id="button-popup-open" aria-label="View Trailer Here">View Trailer Here</button>
+        <!-- Pop-Up Background For Video-->
+            <div id="background-popup" class="pop-background">
+        <!-- Video and Close Button -->
+            <div class="vid-content">
+                <button class="close-button" aria-label="Press Here To Close Window">&times;</button>
+                <video id="vid-popup" width="100%" controls>
+                <source src="./assets/vid/the_crime_brothers_full_trailer.mp4" type="video/mp4">
+             </video>
+            </div>
+            </div>
+        </container> 
         </section>
-
-    </main>
-
     <footer id="ContactUs" class="footer">
         <p>&copy; All rights reserved.</p>
     </footer>

@@ -71,6 +71,22 @@ img {
     width: 500px;
 }
 
+.header, p {
+    padding-bottom: 16px;
+}
+
+.copy {
+    padding-bottom: 32px;
+}
+
+h3 {
+    margin-bottom: 12px;
+}
+
+h4 {
+    margin-bottom: 8px;
+}
+
 /* FOOTER */
 .footer {
     background-color: gray;

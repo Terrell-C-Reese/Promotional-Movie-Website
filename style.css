@@ -42,7 +42,7 @@ header {
 }
 
 .hero {
-    background: url("./images/crime_movie_poster.jpg") center / cover no-repeat;
+    background: url("./images/crime_brothers_bkg.png") center / cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
